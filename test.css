@@ -1,0 +1,54 @@
+section.contact {
+    background-color: azure;
+    padding: 0;
+    max-width: 100vw;
+}
+
+.overlay {
+    align-items: center;
+}
+
+section.contact .overlay {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0);
+    padding: 10rem 0 7rem;
+}
+
+section.contact .container {
+    width: 40%;
+}
+
+section.contact .container H1 {
+    margin: 0;
+    color: blueviolet;
+}
+
+section.contact .container p {
+    text-align: center;
+    color: beige;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+section.contact .container form {
+    margin-top: 3rem;
+}
+
+section.contact .container form input, section.contact .container form textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1.6rem;
+    border: 1px solid yellowgreen;
+    background: transparent;
+    color: blanchedalmond;
+    transition: 0.4s;
+}
+
+section.content form input:focus,
+section.contact form textarea:focus {
+    background: gray;
+    color: brown;
+}

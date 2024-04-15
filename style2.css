@@ -1,0 +1,178 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Photo de couverture */
+  header {
+    position: relative;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+    background-image: url(images/d5ef7601e2d330ad9467ad2dbe0c8ca6.jpg);
+    background-repeat: repeat-x;
+    background-size: 450px;
+  }
+
+  
+  /* Section principale */
+  main {
+    display: flex;
+  }
+  
+  /* Section gauche */
+  .left-section {
+    position: absolute;
+    top: 160px;
+    left: 0;
+    z-index: 1;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .containerPP {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+
+   /* Logo */
+   [data-size="large"] {
+    width: 17px;
+  }
+  
+  [data-size="small"] {
+    width: 12px;
+  }
+  
+  .login-button img {
+    margin-left: 4px;
+  }
+
+   /* Photo de profil */
+   #profile-picture {
+    display: inline-block;
+    flex: 1;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+
+
+
+   /* Bouton de connection */
+  .login-button {
+    height: 30px;
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    border: 2px solid;
+    border-radius: 18px;
+    margin-top: 20px;
+  }
+  
+
+  /* Section droite */
+  .right-section {
+    position: absolute;
+    width: 70%;
+    height: 350px;
+    margin-left: 30%;
+  }
+
+  /* Informations personnelles - structure */
+  
+  .profil-info {
+    display: flex;
+    flex-direction: row; 
+    gap: 136px; 
+    margin-top: 10px;
+    align-items: center; 
+    justify-content: center; 
+  }
+
+  .profil-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .profil-info button {
+    background-color: #eceaea;
+    color: #000;
+    height: 34px;
+    width: 160px;
+    border-radius: 2px;
+    border-style: none;
+    font-weight: 500;
+  }
+  
+  .mdp {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    margin-right: 46px;
+  }
+
+  .mdp p {
+    margin: 0;
+  }
+
+  .mdp button {
+    background-color: #eceaea;
+    color: #000;
+    height: 36px;
+    width: 260px;
+    border-radius: 2px;
+    border-style: none;
+    font-weight: 500;
+    margin-left: 0px;
+  }
+
+  .right-section h1{
+    margin-left: 175px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    font-size: 2.5rem;
+  }
+
+  .right-section h2 {
+    font-size: 1.0rem;
+    margin-bottom: 4px;
+    margin-right: 147px;
+  }
+
+  .right-section h3 {
+    font-size: 1.0rem;
+    margin-bottom: 4px;
+    margin-right: 204px;
+  }
+
+  .logout-icon {
+    z-index: 1;
+    display: block;
+    width: 32px; 
+    height: 32px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
