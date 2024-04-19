@@ -17,10 +17,10 @@ body {
     background-color: #ccc;
     padding: 10px;
     text-align: center;
-    height: 250px;
+    height: 224px;
     background-image: url(images/d5ef7601e2d330ad9467ad2dbe0c8ca6.jpg);
     background-repeat: repeat-x;
-    background-size: 450px;
+    background-size: 406px;
   }
 
   
@@ -45,30 +45,15 @@ body {
     align-items: center;
   }
 
-   /* Logo */
-   [data-size="large"] {
-    width: 17px;
-  }
-  
-  [data-size="small"] {
-    width: 12px;
-  }
-  
-  .login-button img {
-    margin-left: 4px;
-  }
-
    /* Photo de profil */
    #profile-picture {
     display: inline-block;
-    flex: 1;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
   }
-
-  
 
   /* Section droite */
   .right-section {
@@ -84,7 +69,7 @@ body {
     display: flex;
     flex-direction: row; 
     gap: 136px; 
-    margin-top: 10px;
+    margin-top: 40px;
     align-items: center; 
     justify-content: center; 
   }
@@ -102,38 +87,11 @@ body {
     border-style: none;
     font-weight: 500;
   }
-  
-  .mdp {
-    display: grid;
-    place-items: center;
-    margin-top: 30px;
-    margin-right: 46px;
-  }
-
-  .mdp p {
-    margin: 0;
-  }
-
-  .mdp button {
-    background-color: #eceaea;
-    color: #000;
-    height: 36px;
-    width: 260px;
-    border-radius: 2px;
-    border-style: none;
-    font-weight: 500;
-    margin-left: 0px;
-  }
-
 
   .right-section h1{
     margin-bottom: 20px;
     margin-top: 2px;
     font-size: 2.5rem;
-  }
-
-  .h1:first-child {
-    margin-left: 172px;
   }
 
   .right-section h2 {
@@ -146,32 +104,27 @@ body {
     margin-bottom: 4px;
     margin-right: 204px;
   }
-
-  .logout-icon {
-    z-index: 1;
-    display: block;
-    width: 32px; 
-    height: 32px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-  }
   
   /* Message Container */
 .message-container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
   padding: 20px;
   align-items: center;
   margin-top: 100px;
 }
 
-/* Message Input */
+.message-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* Formulaire */
+
 #message-input {
-  width: 100%;
+  width: 90%;
   height: 200px;
   margin-bottom: 10px;
   padding: 10px;
@@ -189,13 +142,16 @@ body {
   transition: background-color 0.3s;
 }
 
+#form {
+  width: 20%;
+  height: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+
 #send-button:hover {
   background-color: #5960a5;
 }
-
-  
-  
-  
-  
-  
-  

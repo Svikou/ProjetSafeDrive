@@ -51,14 +51,18 @@ $user = $_SESSION['user'];
 
           </div>
 
+          <div class="message-container">
+            <h1>Une urgence à signalez ?</h1>
+            <h4>Remplissez le formulaire ci desous en étant le plus precis possible </h4>
+            <form action="https://formspree.io/f/xzbnyeol" method="post">
+              <input type="text" id="form" name="Nom et prénom" placeholder=" Nom et Prénom" required>
+              <input type="email" id="form" name="E-mail" placeholder="E-mail" required>
+              <input type="text" id="form" name="Localisation" placeholder="Quartier/Commune" required>
+              <textarea id="message-input" placeholder="Message" name="Message" required></textarea>
+              <button type="submit" id="send-button">Envoyez</button>
+            </form>
 
-            <div class="message-container">
-              <h1>Une urgence à signalez ?</h1>
-               <p>Rentrez votre votre urgence ci dessous en précisant la commune et le quartier ainsi que l'urgences que ce soit un accident, une manifestation ou une gréve</p>
-              <textarea id="message-input" placeholder="Message"></textarea>
-              <button id="send-button">Send Message</button>
-             </div> 
-          
+          </div>
         </section>
     </main>
   </div>
